@@ -53,24 +53,3 @@ export const addV1 = (inputString) => {
     return numbers
     .reduce((s, n) => s + n)
 }
-
-// console.log(addV1(''))
-// console.log(addV1('@'))
-// console.log(addV1('*()&^%#$'))
-// console.log(addV1('2,1001'))
-// console.log(addV1('1,2,4, -1001'))
-// console.log(addV1('//@\n2@3@8'))
-// console.log(addV1('//***\n1***2***3'))
-// console.log(addV1('//;\n1;3;4'))
-// console.log(addV1('//$,@\n1$2@3'))
-
-// console.log(addV2(''))                    // 0
-// console.log(addV2('@'))                   // 0
-// console.log(addV2('*()&^%#$'))            // 0
-// console.log(addV2('1,2,4, 1001'))         // 7
-// console.log(addV2('//@\n2@3@8'))          // 13
-// console.log(addV2('//***\n1***2***3'))    // 6
-// console.log(addV2('//;\n1;3;4'))          // 8
-// console.log(addV2('//$,@\n1$2@3'))        // 6
-// console.log(addV2('//$$$,@@@@\n1$$$2@@@@3')) // 6
-
