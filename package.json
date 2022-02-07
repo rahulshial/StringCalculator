@@ -5,8 +5,10 @@
   "author": "Rahul Shial",
   "private": true,
   "license": "",
+  "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node ./components/add.ts"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",

@@ -11,7 +11,9 @@ yarn install
 #
 ## Test
 ```
-yarn test
+yarn test - uses jest for running test cases
+
+yarn start - executes node ./components/add.ts - results are displayed on screen with test cases in add.ts
 ```
 #
 ### Usage
